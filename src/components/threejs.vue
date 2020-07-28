@@ -7,7 +7,7 @@
 import * as Three from 'three'
 
 export default {
-    name: 'ThreeTest',
+  name: 'threejs',
   data() {
     return {
       camera: null,
@@ -51,6 +51,6 @@ export default {
 </script>
 <style scoped>
 #container{
-    height:400px;
+    height:600px;
 }
 </style>
