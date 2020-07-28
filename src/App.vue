@@ -1,18 +1,17 @@
 <template>
   <div id="app">
     <navbar></navbar>
-    <threejs></threejs>
+    <router-view/>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue'
-import Threejs from './components/Threejs.vue'
 
 export default {
   name: 'App',
   components: {
-    Navbar,Threejs
+    Navbar
   }
 }
 </script>
@@ -24,6 +23,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
