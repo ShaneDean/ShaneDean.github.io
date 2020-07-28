@@ -1,18 +1,20 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <threejs></threejs>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <h1>aaaaa</h1>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import threejs from './components/threejs.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    threejs
   }
 }
 </script>
