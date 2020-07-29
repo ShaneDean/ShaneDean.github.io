@@ -1,6 +1,5 @@
 <template>
-  <div>
-  <b-navbar type="dark" variant="dark">
+  <b-navbar type="dark" variant="dark" sticky="true">
     <b-navbar-nav>
       <b-nav-item href="#"><router-link to="/">Home</router-link></b-nav-item>
 
@@ -21,7 +20,6 @@
 
     </b-navbar-nav>
   </b-navbar>
-</div>
 </template>
 
 <script>

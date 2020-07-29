@@ -1,7 +1,11 @@
 <template>
-  <div>
-    <iframe src="https://shanedean.github.io/note/"></iframe>
-  </div>
+  <b-embed
+    type="iframe"
+    aspect="16by9"
+    src="https://shanedean.github.io/note/"
+    allowfullscreen
+  >
+  </b-embed>
 </template>
 
 <script>
