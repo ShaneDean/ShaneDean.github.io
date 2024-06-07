@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'LXGWBright';
+    src: url('/assets/fonts/LXGWBright/LXGWBright-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LXGWBright';
+    src: url('/assets/fonts/LXGWBright/LXGWBright-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LXGWBright';
+    src: url('/assets/fonts/LXGWBright/LXGWBright-SemiLight.ttf') format('truetype');
+    font-weight: 300; /* SemiLight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LXGWBright';
+    src: url('/assets/fonts/LXGWBright/LXGWBright-Italic.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LXGWBright';
+    src: url('/assets/fonts/LXGWBright/LXGWBright-MediumItalic.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LXGWBright';
+    src: url('/assets/fonts/LXGWBright/LXGWBright-SemiLightItalic.ttf') format('truetype');
+    font-weight: 300; /* SemiLight */
+    font-style: italic;
+}
