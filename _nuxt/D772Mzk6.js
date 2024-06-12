@@ -1,0 +1,1 @@
+import{_ as t}from"./DlAUqK2U.js";import{c as e,o,b as c}from"./DMsBHW3d.js";const s={},a={class:"mt-10 mx-auto p-12 bg-black bg-opacity-50 rounded-lg text-white w-11/12"},r=c("h1",{class:"text-4xl"},"TODO",-1),_=[r];function n(d,i){return o(),e("div",a,_)}const p=t(s,[["render",n]]);export{p as default};

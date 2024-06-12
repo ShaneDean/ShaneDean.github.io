@@ -1,0 +1,1 @@
+import{e as d,i as c,f,o as s,c as o,s as p,r as n}from"./DMsBHW3d.js";const u=["id"],l=["href"],_=d({__name:"ProseH1",props:{id:{}},setup(t){const a=t,{headings:r}=c().public.mdc,i=f(()=>a.id&&r?.anchorLinks?.h1);return(e,h)=>(s(),o("h1",{id:e.id},[p(i)?(s(),o("a",{key:0,href:`#${e.id}`},[n(e.$slots,"default")],8,l)):n(e.$slots,"default",{key:1})],8,u))}});export{_ as default};
