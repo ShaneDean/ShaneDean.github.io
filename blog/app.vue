@@ -14,7 +14,6 @@
 import { onMounted, ref } from 'vue';
 const { $PIXI , $AsciiFilter } = useNuxtApp();
 const pixiContainer = ref(null);
-
 onMounted(async () => {
   const app = new $PIXI.Application();
   await app.init({

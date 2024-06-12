@@ -3,7 +3,6 @@ const links = [
   [
     { label: 'Home', icon: 'i-heroicons-home', to: '/' },
       // todo  等待整理
-    // { label: 'Resume', icon: 'i-heroicons-user', to: '/resume_pdf' },
     { label: 'Blog', icon: 'i-heroicons-book-open', to: '/blog' },
       // todo 等待整理
     // { label: 'Project', icon: 'i-heroicons-squares-plus', to: '/project' },

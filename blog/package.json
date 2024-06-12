@@ -14,9 +14,11 @@
     "@nuxt/ui": "^2.16.0",
     "@pixi/filter-ascii": "^5.1.1",
     "nuxt": "^3.11.2",
-    "pdfjs-dist": "^4.2.67",
     "pixi.js": "^8.1.1",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

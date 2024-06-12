@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
+  target: 'static',
+  router:{
+    base: '/'
+  },
   app:{
     head:{
       title:"Shane Dean"
@@ -39,14 +43,14 @@ export default defineNuxtConfig({
       }
     },
     build: {
-      target: "es2022"
+      target: "esnext"
     },
     esbuild: {
-      target: "es2022"
+      target: "esnext"
     },
     optimizeDeps:{
       esbuildOptions: {
-        target: "es2022",
+        target: "esnext",
       }
     }
   }
