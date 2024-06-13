@@ -1,4 +1,4 @@
-# 关于我
+# about me
 
 - name : 聂善思
 - or call me : Shane Dean

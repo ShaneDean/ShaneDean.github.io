@@ -2,7 +2,7 @@
   <div class="text-3xl">
     <div>
       <br/>
-      <h1>文章列表</h1>
+      <br/>
       <div>
         <!-- content md 访问路径的 list -->
         <ul>
