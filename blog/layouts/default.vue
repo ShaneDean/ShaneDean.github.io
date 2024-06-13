@@ -23,7 +23,7 @@ const links = [
     </div>
   </div>
 
-  <div id="main" class="p-4 box-border overflow-auto mx-auto w-1/2" style="height: calc(100% - 61px)">
+  <div id="main" class="p-4 box-border overflow-auto mx-auto w-3/4" style="height: calc(100% - 61px)">
     <slot />
   </div>
   <UNotifications />
