@@ -1,34 +1,21 @@
 <template>
   <div class="text-3xl">
     <div>
-      <div>
-        Notion的分享功能导出的内容
-        <a href="https://shanedean.notion.site/0fe88b1c404841b186a1f7c95b3a41ca">笔记工具使用情况</a>
-      </div>
       <br/>
       <h1>文章列表</h1>
-      <div >
-        <!-- content md 访问路径的 table -->
-        <table>
-          <thead>
-          <tr>
-            <th>Title</th>
-            <th>Path</th>
-          </tr>
-          </thead>
-          <tbody>
-          <template v-for="item in navigation" :key="item._path">
+      <div>
+        <!-- content md 访问路径的 list -->
+        <ul>
+          <li v-for="item in navigation" :key="item._path">
             <template v-if="item.children">
-              <tr v-for="child in flattenChildren(item.children)" :key="child._path" >
+              <li v-for="child in flattenChildren(item.children)" :key="child._path">
                 <template v-if="!child.children">
-                  <td>{{ child.title }} </td>
-                  <td><a :href="child._path">{{ child._path }}</a></td>
+                  <a :href="child._path">{{ child.title }}</a>
                 </template>
-              </tr>
+              </li>
             </template>
-          </template>
-          </tbody>
-        </table>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

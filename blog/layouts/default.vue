@@ -4,6 +4,7 @@ const links = [
     { label: 'Home', icon: 'i-heroicons-home', to: '/' },
       // todo  等待整理
     { label: 'Blog', icon: 'i-heroicons-book-open', to: '/blog' },
+    { label: 'Note', icon: 'i-heroicons-document-text', to: 'https://nieshansi.com/note/' },
       // todo 等待整理
     // { label: 'Project', icon: 'i-heroicons-squares-plus', to: '/project' },
   ],
